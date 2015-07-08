@@ -31,10 +31,14 @@ gem 'unicorn'
 
 gem 'react-rails', '~> 1.0'
 
+# slim the html template engine
 gem 'slim-rails'
 
 # setting environment variables through file
 gem 'dotenv-rails'
+
+# markdown
+gem 'marked-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
